@@ -1,24 +1,66 @@
-# json-server-base
-
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
+# Documentação Media-Chat
 
 ## Endpoints
-
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
 
 ### Cadastro
 
 POST /register <br/>
-POST /signup <br/>
-POST /users
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
-
+{
+"email": "madRabbit@email.com",
+"password": "Crazyrabbit123\*",
+"name": "Mad Rabbit",
+"url_profile": "https://3.bp.blogspot.com/-6FQMCX_m3R8/UaMT7n1glfI/AAAAAAAABZs/zEz49Sy99X4/s1600/bunny-man.jpg"
+}
 
 ### Login
 
 POST /login <br/>
-POST /signin
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+{
+"email": "madRabbit@email.com",
+"password": "Crazyrabbit123\*"
+}
+
+## Rotas que necessitam de autenticação
+
+Rotas que necessitam do token para acessar funcionalidades da aplicação.
+Authorization: `Bearer ${token}`
+
+### Autologin
+
+GET /users/userId <br/>
+
+{
+"email": "madRabbit@email.com",
+"password": "$2a$10$Ei8zfZlTjO5wsKgDqlJuHuVsm2cEaRoqy994sy5Ox6enyn5rFVaIS",
+"name": "Mad Rabbit",
+"url_profile": "https://3.bp.blogspot.com/-6FQMCX_m3R8/UaMT7n1glfI/AAAAAAAABZs/zEz49Sy99X4/s1600/bunny-man.jpg",
+"id": 2
+}
+
+### Editar Perfil
+
+PATCH /users/userId <br/>
+
+Exemplo de corpo de requisição:
+
+{
+"name": "Crazy Rabbit"
+}
+
+Exemplo de resposta:
+
+{
+"email": "madRabbit@email.com",
+"password": "$2a$10$Ei8zfZlTjO5wsKgDqlJuHuVsm2cEaRoqy994sy5Ox6enyn5rFVaIS",
+"name": "Crazy Rabbit",
+"url_profile": "https://3.bp.blogspot.com/-6FQMCX_m3R8/UaMT7n1glfI/AAAAAAAABZs/zEz49Sy99X4/s1600/bunny-man.jpg",
+"id": 2
+}
+
+### Deletar Usuário
+
+DELETE /users/userId <br/>
+
+### Pegar todos os usuários

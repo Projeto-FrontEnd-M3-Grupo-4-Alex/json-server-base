@@ -9,13 +9,22 @@
       "follow": [],
       "followers": [],
       "id": 1
+    },
+    {
+      "email": "kenzinho2@mail.com",
+      "password": "$2a$10$kpkT5AgmLu4BMKeDJShx6OgI0TQDh.YfuH.nsp6V9wkZfY169GdO6",
+      "name": "Kenzinho brabo",
+      "bio": "Eu sou o kenzinho brabo",
+      "avatar_url": "url",
+      "follow": [],
+      "followers": [],
+      "id": 2
     }
   ],
-
   "posts": [
     {
       "id": 1,
-      "id_user": 1,
+      "userId": 1,
       "thumbnail": "url",
       "title": "naruto",
       "content": "um dia serei hokage",
@@ -25,13 +34,46 @@
       "rating": 4
     }
   ],
-
   "comments": [
     {
-      "id_user": 1,
-      "id_post": 1,
+      "userId": 1,
+      "postId": 1,
       "content": "muito legal",
-      "like": []
+      "like": [],
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "content": "Não curti não",
+      "like": [],
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "content": "muito show",
+      "like": [],
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "content": "anime é coisa do diabo",
+      "like": [],
+      "id": 4
+    }
+  ],
+  "likesPost": [
+    {
+      "posterId": 1,
+      "usersId": [2]
+    }
+  ],
+  "likesComment": [
+    {
+      "commentId": 1,
+      "usersId": [2]
     }
   ]
 }

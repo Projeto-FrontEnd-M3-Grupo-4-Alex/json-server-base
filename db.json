@@ -6,8 +6,6 @@
       "name": "Kenzinho",
       "bio": "Eu sou o kenzinho",
       "avatar_url": "url",
-      "follow": [],
-      "followers": [],
       "id": 1
     },
     {
@@ -16,8 +14,6 @@
       "name": "Kenzinho brabo",
       "bio": "Eu sou o kenzinho brabo",
       "avatar_url": "url",
-      "follow": [],
-      "followers": [],
       "id": 2
     }
   ],
@@ -48,20 +44,6 @@
       "content": "Não curti não",
       "like": [],
       "id": 2
-    },
-    {
-      "userId": 2,
-      "postId": 1,
-      "content": "muito show",
-      "like": [],
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "postId": 1,
-      "content": "anime é coisa do diabo",
-      "like": [],
-      "id": 4
     }
   ],
   "likesPost": [
@@ -74,6 +56,12 @@
     {
       "commentId": 1,
       "usersId": [2]
+    }
+  ],
+  "follow": [
+    {
+      "userId": 1,
+      "followUsers": [2]
     }
   ]
 }

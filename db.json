@@ -26,7 +26,6 @@
       "content": "um dia serei hokage",
       "tags": "#anime #aventura #ninja",
       "where": "crunchyroll",
-      "likes": [],
       "rating": 4
     }
   ],
@@ -35,14 +34,12 @@
       "userId": 1,
       "postId": 1,
       "content": "muito legal",
-      "like": [],
       "id": 1
     },
     {
       "userId": 1,
       "postId": 1,
       "content": "Não curti não",
-      "like": [],
       "id": 2
     }
   ],

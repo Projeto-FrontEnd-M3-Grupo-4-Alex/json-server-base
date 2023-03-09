@@ -26,7 +26,8 @@
       "content": "um dia serei hokage",
       "tags": "#anime #aventura #ninja",
       "where": "crunchyroll",
-      "rating": 4
+      "rating": 4,
+      "category": "anime"
     }
   ],
   "comments": [
@@ -46,19 +47,22 @@
   "likesPost": [
     {
       "posterId": 1,
-      "usersId": [2]
+      "userId": 2,
+      "id": 1
     }
   ],
   "likesComment": [
     {
       "commentId": 1,
-      "usersId": [2]
+      "userId": 2,
+      "id": 1
     }
   ],
   "follow": [
     {
       "userId": 1,
-      "followUsers": [2]
+      "followUser": [2],
+      "id": 1
     }
   ]
 }

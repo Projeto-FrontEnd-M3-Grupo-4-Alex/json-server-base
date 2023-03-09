@@ -6,7 +6,8 @@
       "name": "Kenzinho",
       "bio": "Eu sou o kenzinho",
       "avatar_url": "url",
-      "id": 1
+      "id": 1,
+      "followUsers": []
     },
     {
       "email": "kenzinho2@mail.com",
@@ -14,7 +15,8 @@
       "name": "Kenzinho brabo",
       "bio": "Eu sou o kenzinho brabo",
       "avatar_url": "url",
-      "id": 2
+      "id": 2,
+      "followUsers": []
     }
   ],
   "posts": [
@@ -55,13 +57,6 @@
     {
       "commentId": 1,
       "userId": 2,
-      "id": 1
-    }
-  ],
-  "follow": [
-    {
-      "userId": 1,
-      "followUser": [2],
       "id": 1
     }
   ]

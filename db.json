@@ -5,44 +5,115 @@
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
       "bio": "Eu sou o kenzinho",
-      "avatar_url": "url",
+      "avatar_url": "https://neofeed.com.br/wp-content/uploads/2021/10/desenvolvedor-696x392.jpg",
       "id": 1,
-      "followUsers": []
+      "followUsers": [2, 3]
     },
     {
       "email": "kenzinho2@mail.com",
       "password": "$2a$10$kpkT5AgmLu4BMKeDJShx6OgI0TQDh.YfuH.nsp6V9wkZfY169GdO6",
       "name": "Kenzinho brabo",
       "bio": "Eu sou o kenzinho brabo",
-      "avatar_url": "url",
+      "avatar_url": "https://noticiasdatv.uol.com.br/media/_versions/noticias/2014/1417436443tcm_classicos_80_iluminado_fixed_large.jpg",
       "id": 2,
-      "followUsers": []
+      "followUsers": [1]
+    },
+    {
+      "email": "narutin@mail.com",
+      "password": "$2a$10$sewZiZhswvbxc7NrDr2Po.LL0729HPwhX79G4YFxUn6C6M9SSH5P.",
+      "name": "Narutin",
+      "bio": "Eu sou o narutin",
+      "avatar_url": "https://rollingstone.uol.com.br/media/uploads/personagem_naruto_foto_reproducao.png",
+      "followUsers": [1, 2],
+      "id": 3
+    },
+    {
+      "email": "egirl@mail.com",
+      "password": "$2a$10$0wNVsXytEs/kKnRXBA9t4.CQ5LxTZM.sEiKdFadBrDG.TSqowzn9K",
+      "name": "Egirl",
+      "bio": "uWu",
+      "avatar_url": "https://tudoela.com/wp-content/uploads/2022/10/estilo-e-girl-3-e1666352173714.jpg",
+      "followUsers": [1, 2, 3, 5],
+      "id": 4
+    },
+    {
+      "email": "larry@mail.com",
+      "password": "$2a$10$J3Jy5kIbTZ8Q65n2zSt1hejPWzzKxUm1bxWslsBtD/N4QtCWoAIqK",
+      "name": "Larry ornitorrinco",
+      "bio": "Olá, eu sou o Larry, primo do Perry",
+      "avatar_url": "https://gartic.com.br/imgs/mural/ch/christianffc/perry-o-ornitorrinco.png",
+      "followUsers": [],
+      "id": 5
     }
   ],
   "posts": [
     {
       "id": 1,
       "userId": 1,
-      "thumbnail": "url",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg",
       "title": "naruto",
       "content": "um dia serei hokage",
-      "tags": "#anime #aventura #ninja",
+      "tags": "#anime, #aventura, #ninja",
       "where": "crunchyroll",
-      "rating": 4,
+      "rating": 5,
+      "category": "anime"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/5/64449.jpg",
+      "title": "Anime pra macho",
+      "content": "Esse anime só os alfas devem assistir - Tokyo Ghoul",
+      "tags": "#machoAlfa, #devBrabo, #ghoul",
+      "where": "crunchyroll",
+      "rating": 5,
+      "category": "anime"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg",
+      "title": "Naruto é vida",
+      "content": "A máscara esconde a revolta de um ninja... OBITOOO, Obito Uchiha",
+      "tags": "#naruto, #ninja, #hokage",
+      "where": "crunchyroll",
+      "rating": 5,
+      "category": "anime"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/10/59101.jpg",
+      "title": "Niko Niko Nii :3",
+      "content": "Esse anime é fofo igual à mim ùwú - Love Live! School Idol Project",
+      "tags": "#nikoNikoNi, #uwu, #cute",
+      "where": "crunchyroll",
+      "rating": 5,
+      "category": "anime"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "thumbnail": "https://gartic.com.br/imgs/mural/ch/christianffc/perry-o-ornitorrinco.png",
+      "title": "Oi, eu sou o Larry",
+      "content": "Oi, eu sou o Larry. O que esse site faz ? Vende chapéu ?",
+      "tags": "#larry, #ornitorrinco, #oi",
+      "where": "casa",
+      "rating": 1,
       "category": "anime"
     }
   ],
   "comments": [
     {
-      "userId": 1,
+      "userId": 2,
       "postId": 1,
-      "content": "muito legal",
+      "content": "esse anime é pra macho alfa ?",
       "id": 1
     },
     {
-      "userId": 1,
+      "userId": 3,
       "postId": 1,
-      "content": "Não curti não",
+      "content": "Um dia também serei um hokage, tmj irmão",
       "id": 2
     }
   ],

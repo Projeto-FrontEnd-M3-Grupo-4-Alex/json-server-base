@@ -61,8 +61,7 @@
       "tags": "#anime, #aventura, #ninja",
       "where": "crunchyroll",
       "rating": 5,
-      "category": "anime",
-      "likes": [2, 3]
+      "category": "anime"
     },
     {
       "id": 2,
@@ -73,8 +72,7 @@
       "tags": "#machoAlfa, #devBrabo, #ghoul",
       "where": "crunchyroll",
       "rating": 5,
-      "category": "anime",
-      "likes": [1, 3]
+      "category": "anime"
     },
     {
       "id": 3,
@@ -85,8 +83,7 @@
       "tags": "#naruto, #ninja, #hokage",
       "where": "crunchyroll",
       "rating": 5,
-      "category": "anime",
-      "likes": [1, 2]
+      "category": "anime"
     },
     {
       "id": 4,
@@ -97,8 +94,7 @@
       "tags": "#nikoNikoNi, #uwu, #cute",
       "where": "crunchyroll",
       "rating": 5,
-      "category": "anime",
-      "likes": [1, 2, 3, 5]
+      "category": "anime"
     },
     {
       "id": 5,
@@ -109,8 +105,7 @@
       "tags": "#larry, #ornitorrinco, #oi",
       "where": "casa",
       "rating": 1,
-      "category": "anime",
-      "likes": [3, 4]
+      "category": "anime"
     }
   ],
   "comments": [
@@ -127,6 +122,31 @@
       "content": "Um dia também serei um hokage, tmj irmão",
       "id": 2,
       "likes": [1]
+    }
+  ],
+  "likesPost": [
+    {
+      "postId": 1,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "postId": 1,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "postId": 2,
+      "userId": 1,
+      "id": 3
+    }
+  ],
+  "likesComment": [
+    {
+      "commentId": 1,
+      "postId": 1,
+      "userId": 2,
+      "id": 1
     }
   ]
 }
